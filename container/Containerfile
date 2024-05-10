@@ -1,0 +1,13 @@
+FROM quay.io/fedora/fedora:40
+
+RUN dnf upgrade --refresh -y --nodocs && \
+    dnf install --nodocs \
+        python3-dasbus \
+        bluechi-controller \
+        bluechi-agent \
+        bluechi-ctl \
+        python3-bluechi \
+    -y && \
+    dnf -y clean all
+
+CMD [ "/sbin/init" ]
