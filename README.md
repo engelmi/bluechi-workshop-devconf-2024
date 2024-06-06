@@ -10,3 +10,4 @@ In this workshop we will explore how BlueChi can be used to manage systemd servi
 1. [Setup](1.SETUP.md)
 2. [BlueChi Basic Operations](2.BASIC_OPERATIONS.md)
 3. [Deploying and managing containerized application with Podman, Quadlet and BlueChi](3.DEPLOY_APPLICATION.md)
+4. [Programming assignment](4.PROGRAMMING_ASSIGNMENT.md)
