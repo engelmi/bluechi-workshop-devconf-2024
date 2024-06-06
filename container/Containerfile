@@ -7,7 +7,12 @@ RUN dnf upgrade --refresh -y --nodocs && \
         bluechi-agent \
         bluechi-ctl \
         python3-bluechi \
+        podman \
+        httpd \
     -y && \
     dnf -y clean all
 
+# Setup Apache
+RUN sed -i "s/^Listen 80$/Listen 8088/" /etc/httpd/conf/httpd.conf
+COPY files/html/* /var/www/html
 CMD [ "/sbin/init" ]
