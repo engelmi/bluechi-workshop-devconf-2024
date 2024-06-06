@@ -1,8 +1,8 @@
-# Eclipse BlueChi workshop devconf.cz 2024
+# Eclipse BlueChi&trade; workshop devconf.cz 2024
 
-Welcome to Eclipse BlueChi workshop!
+Welcome to Eclipse BlueChi&trade; workshop!
 
-Eclipse BlueChi is a systemd service controller intended for multi-node environments with a static number of nodes and with a focus on highly regulated ecosystems such as Automotive and Edge.
+Eclipse BlueChi&trade; is a systemd service controller intended for multi-node environments with a static number of nodes and with a focus on highly regulated ecosystems such as Automotive and Edge.
 
 In this workshop we will explore how BlueChi can be used to manage systemd services in a deterministic way with multiple computing units.
 
