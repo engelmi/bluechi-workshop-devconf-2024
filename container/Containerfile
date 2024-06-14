@@ -9,6 +9,7 @@ RUN dnf upgrade --refresh -y --nodocs && \
         python3-bluechi \
         podman \
         httpd \
+        fuse-overlayfs \
     -y && \
     dnf -y clean all
 
